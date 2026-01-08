@@ -22,7 +22,7 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
+
     /* for check
      border: 2px solid red;
     align-items: center; */
@@ -52,3 +52,78 @@ nav .menu a{
 
     width: 164px 144px;
 }
+
+.main{
+    background-image: url("../Images/hero-bg.png");
+    width: 1600px;
+    height: 674px;
+}
+
+.main-info{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    /* margin-top: 115px; */
+    /* background-color: coral; */
+}
+
+.text-info .part1{
+    color: #ffffff;
+}
+.text-info .part2{
+    color: #30b868;
+}
+
+.text-info .first-p{
+    width: 229px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #30b868;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+
+    
+}
+
+.text-info .second-p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 32px;
+    /* line-height: 24; */
+}
+
+.btn-info{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.btn-info .btn2{
+    width: 251px;
+    height: 52px;
+    background-color: #24a259;
+    border: none;
+    border-radius: 4px;
+
+}
+.btn-info .btn3{
+    width: 198px;
+    height: 52px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+/* .text-info .part1, .part2{
+    width: 770px;
+    height: 168px;
+} */
