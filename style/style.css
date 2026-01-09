@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +11,6 @@
 header{
     background-color: #ffffff;
     padding-top: 16px;
-
-    /* for check
-     border: 2px solid tomato;
-    background-color: coral;  */
 }
 
 nav{
@@ -22,10 +19,6 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
-    /* for check
-     border: 2px solid red;
-    align-items: center; */
 }
 
 .menu{
@@ -53,77 +46,79 @@ nav .menu a{
     width: 164px 144px;
 }
 
-.main{
+
+#about{
     background-image: url("../Images/hero-bg.png");
-    width: 1600px;
-    height: 674px;
-}
-
-.main-info{
-    width: 85%;
-    max-width: 1360px;
-    margin: 0 auto;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    /* margin-top: 115px; */
-    /* background-color: coral; */
-}
-
-.text-info .part1{
-    color: #ffffff;
-}
-.text-info .part2{
-    color: #30b868;
-}
-
-.text-info .first-p{
-    width: 229px;
-    height: 35px;
-    font-size: 16px;
-    font-weight: 500px;
-    color: #30b868;
-    border-radius: 50px;
-    background-color: #ffffff;
-    margin-bottom: 16px;
-
-    
-}
-
-.text-info .second-p{
-    font-size: 18px;
-    color: #ffffff;
-    margin-bottom: 32px;
-    /* line-height: 24; */
-}
-
-.btn-info{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    align-items: center;
+    /* text-align: center; */
+    
+    padding: 40px;
+    color: #ffffff;
+    min-height: 80vh; 
+}
 
+.about-container{
+
+    width: 85%;
+    max-width: 1360; 
+    height: 379px;
+    text-align: center;
+    /* background-color:coral; */
+}
+
+
+
+
+.section-heading .first-paragraph{
+    display: inline-block;
+    padding: 8px 12px 8px 34px;
+    background-color: #ffffff;
+    color: #30B868;
+    border-radius: 1000px;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 500px;
+    margin-bottom: 16px;
 }
-
-.btn-info .btn2{
-    width: 251px;
-    height: 52px;
-    background-color: #24a259;
-    border: none;
+.section-heading h1{
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.head-color{
+    color: #30B868;
+}
+.section-heading .second-paragraph{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    /* color: coral; */
+    margin-bottom: 32px;
+}
+.section-heading .button-info{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.section-heading .button-info button{
+    padding: 16.5px 46px 16.5px 16px;
+    font-size: 16px;
     border-radius: 4px;
-
-}
-.btn-info .btn3{
-    width: 198px;
-    height: 52px;
+    cursor: pointer;
     border: none;
-    border-radius: 4px;
 }
 
+.button-info .first-btn{
+    background-color: #30B868;
+    color: #ffffff;
+}
+.second-btn{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #474747;
+}
 
-
-/* .text-info .part1, .part2{
-    width: 770px;
-    height: 168px;
-} */
