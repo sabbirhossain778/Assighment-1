@@ -12,7 +12,6 @@ header{
     background-color: #ffffff;
     padding-top: 16px;
 }
-
 nav{
     width: 85%;
     max-width: 1360px;
@@ -20,14 +19,12 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
 .menu{
     display: flex;
     list-style-type: none;
     align-items: center;
     gap: 32px;
 }
-
 nav .menu a{
     font-size: 16px;
     font-weight: 600;
@@ -61,7 +58,6 @@ nav .menu a{
     color: #ffffff;
     min-height: 80vh; 
 }
-
 .about-container{
 
     width: 85%;
@@ -70,17 +66,18 @@ nav .menu a{
     text-align: center;
     /* background-color:coral; */
 }
-
-
 .section-heading .first-paragraph{
     display: inline-block;
-    padding: 8px 12px 8px 34px;
+    padding: 8px 12px 12px 34px;
     background-color: #ffffff;
     color: #30B868;
     border-radius: 1000px;
     font-size: 16px;
     font-weight: 500px;
     margin-bottom: 16px;
+}
+.first-paragraph img{
+     max-width: 20px;
 }
 .section-heading h1{
     font-size: 72px;
@@ -102,6 +99,9 @@ nav .menu a{
     gap: 16px;
     justify-content: center;
 }
+.button-info .second-btn .fa-brands{
+margin-right: 10px;
+}
 .section-heading .button-info button{
     padding: 16.5px 46px 16.5px 16px;
     font-size: 16px;
@@ -109,7 +109,6 @@ nav .menu a{
     cursor: pointer;
     border: none;
 }
-
 .button-info .first-btn{
     background-color: #30B868;
     color: #ffffff;
@@ -119,8 +118,8 @@ nav .menu a{
 .second-btn{
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid #474747;
 }
+
 
 
 #notes{
@@ -145,8 +144,6 @@ color: #001931;
     color: #627382;
     margin-bottom: 44px;
 }
-
-
 .notex-box{
     display: flex;
     gap: 24px;
@@ -184,6 +181,10 @@ color: #001931;
 }
 .solution-container{
     display: flex;
+    justify-content: center;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
     gap: 60px;
 }
 .photo img{
@@ -229,8 +230,11 @@ color: #001931;
 .early-access-container{
     width: 85%;
     max-width: 1360px;
+    height: 416px;
+    padding-top: 80px;
     margin: 0 auto;
     text-align: center;
+    background-color: #f7f6f2;
 }
 .early-text h3{
     font-size: 40px;
@@ -243,7 +247,6 @@ color: #001931;
     color: #627382;
     margin-bottom: 24px;
 }
-
 .early-btn{
     display: inline-flex;
     align-items: center;
@@ -265,3 +268,53 @@ color: #001931;
     color: #627382;
     margin-top: 16px;
 }
+
+
+
+#footer{
+    padding-top: 120px ;
+    background-color: #001931;
+}
+.first-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto ;
+    width: 85%;
+    max-width: 1360;
+}
+.first-div p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500px;
+    color: #ffffff;
+    width: 220px;
+    height: 64px;   
+}
+.second-div{
+     display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 54px;
+    max-width: 1360;
+    margin: 0 auto;
+}
+.footer-container hr{
+    width: 85%;
+    max-width: 1360;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border: none;
+    border-top: 2px dotted rgba(255, 255, 255, 0.131);
+    
+ }
+.second-div .copy-right p{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    width: 85%;
+    max-width: 1360;
+    white-space: nowrap;
+}
+
